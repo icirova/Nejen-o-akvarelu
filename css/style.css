@@ -1,0 +1,109 @@
+.logo {
+    background-size: px px;
+    height: 60px;
+    width: 200px;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    background: url(logo.png)no-repeat;
+  }
+
+  body > header {
+    height: 100px;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    top: 0;
+    background: #ffffff;
+    color: white;
+    width: 100%;
+    z-index: 1;  
+    border-bottom:3px solid #808080;  
+}
+
+nav ul {
+    margin: 0;
+    height: 100%;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    font-family: Dancing Script;
+    font-weight: bolder;
+}
+
+nav ul li {
+    padding: 0 25px;
+    margin: 0 5px;
+    font-size: 1em;
+    line-height: 4.3em;
+}
+
+nav ul a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #674272;
+}
+nav ul a:hover, .aktivni a {
+   /* border-bottom: 3px solid #808080;*/
+   color: #808080;
+}
+body{ 
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-image:url(bitmapa.png) ;
+    background-position-x: center;
+    background-position-y: -80px;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-attachment: fixed;
+    }
+
+.article {
+    padding: 70px 450px;
+    flex: 1;
+}
+
+article{
+    font-size: 1.2em;
+    padding: 0px 25px;
+    padding-bottom: 10px;
+    background-color: white;
+  }
+
+  footer {
+    box-sizing: border-box;
+    text-align: center;
+    height: 50px;
+    color: rgb(150, 150, 150);
+    background: #ffffff;
+    padding: 0 0 0 0;
+    clip-path:polygon()
+}
+.odsazeni {
+    text-indent: 20px;
+}
+
+h1{
+ text-align: center;
+ text-transform: uppercase;
+ text-decoration: underline 3px #808080;
+
+}
+
+h2 {
+    text-indent: 0px;
+    color: #674272;
+    font-family: Dancing Script;
+}
+.citat{
+    text-align: center;
+    font-size: 1.5em;
+    color: #674272;
+    font-family: Dancing script;
+    
+}
+#centrovac {
+    margin: 0 auto;
+    max-width: 960px;}
+
