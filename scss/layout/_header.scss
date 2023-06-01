@@ -1,1 +1,38 @@
 @use '../abstracts/variables';
+
+.header {
+    background-image: url(/images/header-background.png);
+    background-size: cover;
+    min-height: 350px;
+    padding-top: variables.$triple-spacer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    &__image {
+        @media screen and (min-width: 680px) {
+            width: 200px;
+        }
+    }
+
+    &__title-image {
+        @media screen and (min-width: 680px) {
+            width: 300px;
+        }
+        
+        
+    }
+}
+
+.header-wrapper {
+    display: flex;
+    gap: variables.$spacer;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
