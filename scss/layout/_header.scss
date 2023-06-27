@@ -1,4 +1,5 @@
 @use '../abstracts/variables';
+@use '../abstracts/mixins';
 
 .header {
     background-image: url(/images/header-background.png);

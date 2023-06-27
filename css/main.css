@@ -74,9 +74,11 @@
   text-decoration: none;
   color: black;
 }
+.menu__link--active {
+  color: #DC8676;
+}
 @media screen and (min-width: 680px) {
   .menu__link:hover, .menu__link:focus {
-    border-bottom: 2px solid #EFC2B6;
     color: #DC8676;
   }
 }

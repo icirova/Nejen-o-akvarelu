@@ -1,20 +1,19 @@
 ---
 layout: layouts/main-template.njk
-title: Nejen o akvarelu
+title: Články
 ---
 
+<h1>Články</h1>
 
+    {% for prispevek in collections.clanek | reverse %}
 
-
-    {% for prispevek in collections.clanek | reverse | limit(1) %}
-
-            
+        
     <div class="article">
 
         <img src="/clanky/images/{{ prispevek.data.image }}" alt="{{ prispevek.data.alt }}">
 
         <div class="article__text">
-
+    
             <h2>{{ prispevek.data.title }}</h2>
             <p>{{ prispevek.data.perex }}</p>
             <p><a href="{{ prispevek.url }}">pokračovat ve čtení</a></p>
@@ -25,3 +24,4 @@ title: Nejen o akvarelu
 
 
     {% endfor %}
+

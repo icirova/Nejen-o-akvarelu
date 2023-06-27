@@ -1,0 +1,33 @@
+---
+layout: layouts/main-template.njk
+---
+
+
+
+<main class="main">
+
+<article class="article">
+                
+    <h1 class="article__title"> {{ title }} </h1>
+    <p class="article__meta">Publikováno {{ page.date.toLocaleString('cs-CZ') }} </p>
+    
+    <div class="article__content">
+
+        <div class="article__text">
+
+            <p class="article__perex"> {{ perex }}</p>  
+
+
+            {{ content | safe }}
+
+
+        </div>
+
+        <img src="/clanky/images/ {{ image }}" alt="{{ alt }}" class="article__image">
+
+    </div>
+
+</article>
+
+</main>
+

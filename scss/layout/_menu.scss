@@ -1,4 +1,5 @@
 @use '../abstracts/variables';
+@use '../abstracts/mixins';
 
 .menu {
 
@@ -45,6 +46,8 @@
         font-family: variables.$title-font;
         text-align: center;
         padding: 0 variables.$half-spacer;
+
+        
     }
 
     
@@ -52,13 +55,17 @@
         display: block;
         text-decoration: none;
         color: black;
+
+        &--active {
+            color: variables.$color-primary;
+        }
         
     }
 
     &__link:hover, &__link:focus {
         
         @media screen and (min-width: 680px) {
-            border-bottom: 2px solid variables.$color-secondary;
+            // border-bottom: 2px solid variables.$color-secondary;
             color: variables.$color-primary;
     }
         
