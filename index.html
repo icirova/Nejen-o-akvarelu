@@ -1,12 +1,12 @@
 ---
-layout: layouts/main-template.njk
+layout: layouts/homepage.njk
 title: Nejen o akvarelu
 ---
 
 
 
 
-    {% for prispevek in collections.clanek | reverse | limit(1) %}
+    {% for prispevek in collections.clanek | reverse | limit(3) %}
 
             
     <div class="article">
@@ -16,7 +16,12 @@ title: Nejen o akvarelu
         <div class="article__text">
 
             <h2>{{ prispevek.data.title }}</h2>
+            <p>Publikováno {{ prispevek.data.publication }} </p>
+            <!-- <p>Publikováno {{ page.date.toLocaleString('cs-CZ') }} </p> -->
             <p>{{ prispevek.data.perex }}</p>
+
+            <!-- <p>{{ prispevek.content }}</p> -->
+
             <p><a href="{{ prispevek.url }}">pokračovat ve čtení</a></p>
 
         </div>

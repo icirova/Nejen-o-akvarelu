@@ -1,2 +1,42 @@
 @use '../abstracts/variables';
 @use '../abstracts/mixins';
+
+.footer {
+    background-image: url(/images/background.png);
+    background-size: cover;
+    padding: variables.$spacer;
+}
+
+.card-wrapper {
+    
+    @media screen and (min-width: 600px) {
+        display: flex;
+        gap: variables.$spacer;
+        justify-content: space-between;
+    
+        @include mixins.margin-b;
+    }
+        
+
+   
+}
+
+.image--profil {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+.card {
+    padding: variables.$spacer;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.copy {
+    text-align: center;
+}

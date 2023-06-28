@@ -4,3 +4,18 @@
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; margin: 0; padding: 0; }
 
+body {
+    font-family: variables.$default-font;
+}
+
+h1,
+h2,
+h3 {
+    font-family: variables.$title-font;
+    color: variables.$color-primary;
+}
+
+// .section-title {
+//     font-family: variables.$special-font;
+// }
+

@@ -1,1 +1,10 @@
 @use '../abstracts/variables';
+
+@mixin margin-b {
+    margin-bottom: variables.$spacer;
+}
+
+@mixin radius-item {
+    border-radius: variables.$half-spacer;
+}
+

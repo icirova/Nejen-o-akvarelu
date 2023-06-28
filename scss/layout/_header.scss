@@ -2,36 +2,44 @@
 @use '../abstracts/mixins';
 
 .header {
-    background-image: url(/images/header-background.png);
+    background-image: url(/images/background.png);
     background-size: cover;
     min-height: 350px;
-    padding-top: variables.$triple-spacer;
+    padding: variables.$spacer;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
-    &__image {
-        @media screen and (min-width: 680px) {
-            width: 200px;
-        }
+    @media screen and (min-width: 600px) {
+        justify-content: space-around;
     }
 
-    &__title-image {
-        @media screen and (min-width: 680px) {
-            width: 300px;
+    &__image {
+
+        display: block;
+        margin: auto;
+
+        @include mixins.margin-b;
+
+        @media screen and (min-width: 600px) {
+                margin: 0;
         }
-        
-        
+
     }
+
 }
 
 .header-wrapper {
-    display: flex;
-    gap: variables.$spacer;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+
+    @media screen and (min-width: 600px) {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: variables.$spacer
+    }
+    
+    
 }
 
 

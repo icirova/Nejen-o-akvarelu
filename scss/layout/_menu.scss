@@ -4,70 +4,44 @@
 .menu {
 
     margin-bottom: variables.$half-spacer;
-    &__checkbox {
-        position: absolute;
-        left:  -9999px;
-        }
-    
-        &__checkbox:checked ~ .menu__list {
-            @media screen and (max-width: 679px) {
-                display: block;
-            }   
-        }
-    
-        &__toggler {
-            text-transform: uppercase;
-            font-family: variables.$title-font;
-            display: block;
-            padding: 5px;
-            text-align: center;
-            color: variables.$color-primary;
-            cursor: pointer;
-    
-            @media screen and (min-width: 680px) {
-                display: none;
-            }
-        }
 
+   
     &__list {
-        list-style: none;
-        display: none;
-
+        
         @media screen and (min-width: 680px) {
             display: flex;
-            gap: 20px;
+            justify-content: center;
+            gap: variables.$half-spacer;  
         }
-
-       
     }
 
     &__item {
+        display: block;
+        text-align: center;
+        text-decoration: none;
         text-transform: uppercase;
         font-family: variables.$title-font;
-        text-align: center;
-        padding: 0 variables.$half-spacer;
-
-        
+        padding: variables.$half-spacer;
     }
 
-    
     &__link {
-        display: block;
         text-decoration: none;
         color: black;
-
-        &--active {
-            color: variables.$color-primary;
-        }
-        
     }
-
+    
     &__link:hover, &__link:focus {
-        
+        cursor: pointer;
+
         @media screen and (min-width: 680px) {
-            // border-bottom: 2px solid variables.$color-secondary;
             color: variables.$color-primary;
-    }
-        
+            // transform: translateY(3px);
+        }
     }
 }
+
+.menu__link--active {
+    color: variables.$color-primary;
+}
+
+
+
