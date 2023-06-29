@@ -15,7 +15,24 @@ h3 {
     color: variables.$color-primary;
 }
 
-// .section-title {
-//     font-family: variables.$special-font;
-// }
+.section-title {
+    text-align: center;
+    font-size: 2em;
+    margin: variables.$double-spacer 0;
+
+    @media screen and (min-width: 600px) {
+        font-size: 3em;
+    }
+}
+
+.main {
+    padding: variables.$spacer;
+
+    @media screen and (min-width: 600px) {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+
 

@@ -11,6 +11,7 @@
 @media screen and (min-width: 600px) {
   .header {
     justify-content: space-around;
+    padding-bottom: 0;
   }
 }
 .header__image {
@@ -21,14 +22,17 @@
 @media screen and (min-width: 600px) {
   .header__image {
     margin: 0;
+    width: 200px;
   }
+}
+.header__image--title {
+  width: 380px;
 }
 
 @media screen and (min-width: 600px) {
   .header-wrapper {
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
     gap: 20px;
   }
 }
@@ -48,7 +52,8 @@
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+  font-family: "Open Sans", sans-serif;
   padding: 10px;
 }
 .menu__link {
@@ -79,6 +84,8 @@
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
     margin-bottom: 20px;
   }
 }
@@ -97,6 +104,51 @@
   text-align: center;
 }
 
+.article {
+  background-image: url(/images/background.png);
+  background-size: cover;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.article__image {
+  max-width: 100%;
+}
+.article__title {
+  font-size: 3em;
+  font-weight: 500;
+}
+.article__subtitle {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+.article__meta {
+  color: #DC8676;
+}
+.article__perex {
+  font-size: 1em;
+  background-image: url(/images/background.png);
+  background-size: cover;
+  padding: 10px;
+}
+.article * {
+  margin-bottom: 20px;
+}
+
+.welcome__text {
+  background-color: #f9e7e2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.welcome__image {
+  width: 100%;
+}
+.welcome__image--woman {
+  width: 40%;
+  display: block;
+  margin: 40px auto;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -108,12 +160,33 @@ html {
 }
 
 body {
-  font-family: "Oxygen", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #DC8676;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2em;
+  margin: 40px 0;
+}
+@media screen and (min-width: 600px) {
+  .section-title {
+    font-size: 3em;
+  }
+}
+
+.main {
+  padding: 20px;
+}
+@media screen and (min-width: 600px) {
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=main.css.map */

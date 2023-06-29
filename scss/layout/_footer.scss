@@ -13,6 +13,8 @@
         display: flex;
         gap: variables.$spacer;
         justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
     
         @include mixins.margin-b;
     }

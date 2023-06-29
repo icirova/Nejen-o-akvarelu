@@ -7,8 +7,11 @@ layout: layouts/main-template.njk
 <main class="main">
 
 <article class="article">
+
+    <img class="article__image" src="/clanky/images/{{ image }}" alt="{{ alt }}" >
                 
-    <h1 class="article__title"> {{ title }} </h1>
+    <!-- <h1 class="article__title"> {{ title }} </h1> -->
+    <p class="article__subtitle"> {{ subtitle }} </p>
     <p class="article__meta">Publikováno {{ page.date.toLocaleString('cs-CZ') }} </p>
     
     <div class="article__content">
@@ -23,7 +26,7 @@ layout: layouts/main-template.njk
 
         </div>
 
-        <img src="/clanky/images/ {{ image }}" alt="{{ alt }}" class="article__image">
+        
 
     </div>
 

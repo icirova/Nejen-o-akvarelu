@@ -1,0 +1,41 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+.article {
+
+    background-image: url(/images/background.png);
+    background-size: cover;
+    padding: variables.$half-spacer;
+    
+    @include mixins.margin-b;
+
+
+    &__image {
+        max-width: 100%;
+    }
+
+    &__title {
+        font-size: 3em;
+        font-weight: 500;
+    }
+    &__subtitle {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+
+    &__meta {
+        color: variables.$color-primary;
+    }
+
+    &__perex {
+        font-size: 1em;
+        background-image: url(/images/background.png);
+        background-size: cover;
+        padding: variables.$half-spacer;
+    }
+
+    & * {
+        margin-bottom: 20px;
+    }
+}

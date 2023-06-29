@@ -1,0 +1,21 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+.welcome {
+    &__text {
+        background-color: variables.$color-secondary;
+        padding: variables.$spacer;
+
+        @include mixins.margin-b;
+    }
+
+    &__image {
+        width: 100%;
+
+        &--woman {
+            width: 40%;
+            display: block;
+            margin: variables.$double-spacer auto;
+        }
+    }
+}

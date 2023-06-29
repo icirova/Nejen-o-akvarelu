@@ -1,9 +1,11 @@
 @use 'layout/header';
 @use 'layout/menu';
 @use 'layout/footer';
+@use 'layout/article';
 
 @use 'pages/index';
 @use 'pages/clanky';
 @use 'pages/inspirace';
+@use 'pages/homepage';
 
 @use 'base/base';

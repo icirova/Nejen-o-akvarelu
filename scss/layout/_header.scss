@@ -13,6 +13,7 @@
 
     @media screen and (min-width: 600px) {
         justify-content: space-around;
+        padding-bottom: 0;
     }
 
     &__image {
@@ -24,6 +25,11 @@
 
         @media screen and (min-width: 600px) {
                 margin: 0;
+                width: 200px;
+        }
+
+        &--title {
+            width: 380px;
         }
 
     }
@@ -35,7 +41,6 @@
     @media screen and (min-width: 600px) {
         display: flex;
         flex-direction: row-reverse;
-        align-items: center;
         gap: variables.$spacer
     }
     
