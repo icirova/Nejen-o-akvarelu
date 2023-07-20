@@ -23,42 +23,6 @@
     margin-bottom: 0;
   }
 }
-.logo__bef::before {
-  content: "";
-  display: inline-block;
-  width: 10px;
-  height: 2px;
-  background-color: black;
-  margin: 8px 12px;
-}
-@media screen and (min-width: 680px) {
-  .logo__bef::before {
-    margin: 9px 12px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .logo__bef::before {
-    height: 3px;
-  }
-}
-.logo__bef::after {
-  content: "";
-  display: inline-block;
-  width: 10px;
-  height: 2px;
-  background-color: black;
-  margin: 8px 12px;
-}
-@media screen and (min-width: 680px) {
-  .logo__bef::after {
-    margin: 9px 12px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .logo__bef::after {
-    height: 3px;
-  }
-}
 
 @keyframes dissolve {
   0% {
@@ -248,7 +212,7 @@
   grid-row: 1/2;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 8px;
+  border-radius: 2px;
   padding: 12px;
   width: 75%;
 }
@@ -300,13 +264,13 @@
   content: "";
   display: inline-block;
   width: 30px;
-  height: 3px;
+  height: 2px;
   background-color: #DC8676;
   margin: 12px -55px 24px 10px;
 }
 @media screen and (min-width: 680px) {
   .hero__author::before {
-    margin: 12px -65px 24px 0px;
+    margin: 12px -65px 24px 30px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -317,7 +281,7 @@
 
 .buttons {
   display: flex;
-  gap: 20px;
+  gap: 24px;
 }
 
 .welcome__text {
@@ -408,10 +372,10 @@ h3 {
   background-color: #DC8676;
   color: white;
   padding: 10px 15px;
-  border: 3px solid #DC8676;
-  width: 120px;
+  border: 2px solid #DC8676;
+  width: 100px;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 2px;
   box-shadow: rgba(149, 157, 165, 0.2) 8px 4px 18px;
 }
 @media screen and (min-width: 680px) {
@@ -431,7 +395,7 @@ h3 {
   background-color: #DC8676;
 }
 .btn--outline {
-  border: 3px solid #DC8676;
+  border: 2px solid #DC8676;
   color: #DC8676;
   background-color: rgba(255, 255, 255, 0.5);
 }

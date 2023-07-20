@@ -1,6 +1,6 @@
 # ART Iveta Círová
 
-Jedná se o osobní webové stránky a blog. Je to vícestránkový web. Je responzivní - má mobilní a PC verzi.
+Jedná se o blog s názvem Nejen o akvarelu. Je to vícestránkový web. Je responzivní - má mobilní, tabletovou a PC verzi.
 
 ## Technologie
 

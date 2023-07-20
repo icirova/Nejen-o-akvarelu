@@ -5,7 +5,7 @@
 }
 
 @mixin radius-item {
-    border-radius: variables.$mini-spacer;
+    border-radius: 2px;
 }
 
 @mixin shadow {
@@ -32,8 +32,8 @@
     background-color: variables.$color-primary;
     color:white;
     padding: 10px 15px;
-    border: 3px solid variables.$color-primary;
-    width: 120px ;
+    border: 2px solid variables.$color-primary;
+    width: 100px ;
    
     text-align: center;
 

@@ -102,12 +102,12 @@
         content: "";
         display: inline-block;
         width: 30px;
-        height: 3px;
+        height: 2px;
         background-color: variables.$color-primary;
         margin: 12px -55px 24px 10px;
 
         @include mixins.display-med {
-            margin: 12px -65px 24px 0px;
+            margin: 12px -65px 24px 30px;
         }
         
         @include mixins.display-lg {
@@ -120,7 +120,7 @@
 
 .buttons {
     display: flex;
-    gap: 20px;
+    gap: variables.$spacer;
 
 
 }
