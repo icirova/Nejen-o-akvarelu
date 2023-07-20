@@ -10,7 +10,7 @@ layout: layouts/main-template.njk
 
     <img class="article__image" src="/clanky/images/{{ image }}" alt="{{ alt }}" >
                 
-    <!-- <h1 class="article__title"> {{ title }} </h1> -->
+    <h1 class="article__title"> {{ title }} </h1>
     <p class="article__subtitle"> {{ subtitle }} </p>
     <p class="article__meta">Publikováno {{ page.date.toLocaleString('cs-CZ') }} </p>
     
@@ -31,6 +31,8 @@ layout: layouts/main-template.njk
     </div>
 
 </article>
+
+<a class="link link--articles" href="/clanky/">Zpět</a>
 
 </main>
 

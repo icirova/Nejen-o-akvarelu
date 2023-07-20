@@ -5,6 +5,60 @@
 }
 
 @mixin radius-item {
-    border-radius: variables.$half-spacer;
+    border-radius: variables.$mini-spacer;
+}
+
+@mixin shadow {
+    box-shadow: rgba(149, 157, 165, 0.2) 8px 4px 18px;
+}
+
+@mixin display-lg {
+    @media screen and (min-width: variables.$screen-lg) {
+        @content;
+    }
+}
+
+@mixin display-med {
+    @media screen and (min-width: variables.$screen-med) {
+        @content;
+    }
+}
+
+@mixin button {
+
+    display: block;
+    text-decoration: none;
+
+    background-color: variables.$color-primary;
+    color:white;
+    padding: 10px 15px;
+    border: 3px solid variables.$color-primary;
+    width: 120px ;
+   
+    text-align: center;
+
+    @include radius-item;
+
+    @include display-med {
+        width: 180px;
+        padding: 15px 20px;
+        font-size: 1.4em;
+    }
+
+    @include display-lg {
+        width: 200px;
+    }
+}
+
+@mixin padding-sm {
+    padding: variables.$half-spacer;
+}
+
+@mixin padding-med {
+    padding: variables.$spacer;
+}
+
+@mixin padding-lg {
+    padding: variables.$double-spacer;
 }
 

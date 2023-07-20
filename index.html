@@ -9,20 +9,18 @@ title: Nejen o akvarelu
     {% for prispevek in collections.clanek | reverse | limit(3) %}
 
             
-    <div class="article">
+    <div class="card">
 
-        
+        <div class="card__text">
 
-        <div class="article__text">
-
-            <h2>{{ prispevek.data.title }}</h2>
-            <p>Publikováno {{ prispevek.data.publication }} </p>
+            <h1 class="card__title">{{ prispevek.data.title }}</h1>
+            <p class="card__description">Publikováno {{ prispevek.data.publication }} </p>
             <!-- <p>Publikováno {{ page.date.toLocaleString('cs-CZ') }} </p> -->
-            <p>{{ prispevek.data.perex }}</p>
+            <p class="card__description card__description--perex">{{ prispevek.data.perex }}</p>
 
             <!-- <p>{{ prispevek.content }}</p> -->
 
-            <p><a href="{{ prispevek.url }}">pokračovat ve čtení</a></p>
+            <a class="link link--article" href="{{ prispevek.url }}">pokračovat ve čtení</a></p>
 
         </div>
 

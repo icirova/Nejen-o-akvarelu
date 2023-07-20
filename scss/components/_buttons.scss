@@ -1,0 +1,38 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+.btn {
+    @include mixins.button;
+
+    @include mixins.shadow;
+
+    &:hover,
+    &:active {
+        cursor: pointer;
+        background-color: variables.$color-primary;
+       
+    }
+
+
+
+
+    &--outline {
+        border: 3px solid variables.$color-primary;
+        color: variables.$color-primary;
+        
+        background-color: variables.$color-secondary-op;
+
+        &:hover,
+        &:active {
+           
+            background-color: variables.$color-secondary;
+           
+        }
+    }
+
+    &--low-opacity {
+        background-color: variables.$color-primary-op;
+    }
+
+}
+

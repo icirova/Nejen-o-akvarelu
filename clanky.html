@@ -8,17 +8,17 @@ title: Články
     {% for prispevek in collections.clanek | reverse %}
 
         
-    <div class="article">
+    <div class="card">
 
         <!-- <img class="article__image" src="/clanky/images/{{ prispevek.data.image }}" alt="{{ prispevek.data.alt }}"> -->
 
-        <div class="article__text">
+        <div class="card__text">
     
-            <h2>{{ prispevek.data.title }}</h2>
-            <p>Publikováno {{ prispevek.data.publication }} </p>
+            <h1 class="card__title">{{ prispevek.data.title }}</h1>
+            <p class="card__description">Publikováno {{ prispevek.data.publication }} </p>
             <!-- <p>Publikováno {{ page.date.toLocaleString('cs-CZ') }} </p> -->
-            <p>{{ prispevek.data.perex }}</p>
-            <p><a href="{{ prispevek.url }}">pokračovat ve čtení</a></p>
+            <p class="card__description card__description--perex">{{ prispevek.data.perex }}</p>
+            <a class="link link--article" href="{{ prispevek.url }}">pokračovat ve čtení</a>
 
         </div>
 

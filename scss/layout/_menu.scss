@@ -3,39 +3,70 @@
 
 .menu {
 
-    margin-bottom: variables.$half-spacer;
+    &__checkbox {
+	position: absolute;
+	left:  -9999px;
+    }
 
-   
+    &__checkbox:checked ~ .menu__list {
+        @media screen and (max-width: 679px) {
+            display: block;
+        }   
+    }
+
+    &__toggler {
+        display: block;
+        text-align:center;
+        cursor: pointer;
+        font-size: 1.4em;
+       
+
+        @media screen and (min-width: 680px) {
+            display: none;
+        }
+    }
+
     &__list {
+        display: none;
+       
+        align-self: center;
+       
         
         @media screen and (min-width: 680px) {
-            display: flex;
-            justify-content: center;
-            gap: variables.$half-spacer;  
+        display: flex;
+        justify-content: center;
+       
+        gap: variables.$double-spacer;  
         }
+    }
+   
+
+    &__link {
+        text-decoration: none;
+        color: black;
     }
 
     &__item {
         display: block;
         text-align: center;
         text-decoration: none;
-        text-transform: uppercase;
         font-size: 1.2em;
         font-family: variables.$title-font;
         padding: variables.$half-spacer;
-    }
-
-    &__link {
-        text-decoration: none;
-        color: black;
+       
+      
+              
+        @media screen and (min-width: 680px) {
+           
+            font-size: 1.8em;
+        }
     }
     
     &__link:hover, &__link:focus {
         cursor: pointer;
 
-        @media screen and (min-width: 680px) {
+        @include mixins.display-med {
             color: variables.$color-primary;
-            // transform: translateY(3px);
         }
     }
 }
@@ -45,4 +76,6 @@
 }
 
 
-
+.menu-wrapper {
+    text-align: end;
+}

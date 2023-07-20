@@ -1,15 +1,32 @@
+//barvy
 $color-primary: #DC8676;
 $color-secondary:#f9e7e2;
 
+//barvy s průhledností
+$color-primary-op:rgb(220, 134, 118, 0.5);
+$color-secondary-op: rgb(255, 255, 255, 0.5);
+
+//fonty
 $default-font: 'Poppins', sans-serif;
 $title-font: 'Open Sans', sans-serif;
-// $special-font: 'Calligraffitti', cursive;
+$special-font:'Lora', serif;
 
 
+//velikosti fontů
+$font-sm: 1em;  
+$font-med: 1.5em;
+$font-lg: 2em;
 
 
-$spacer: 20px;
+//rozměry
+$spacer: 24px;
 $double-spacer: $spacer * 2;
 $triple-spacer: $spacer * 3;
 $half-spacer: $spacer / 2;
+$mini-spacer: $spacer / 3;
+
+//breakpointy pro Media Queries
+$screen-med: 680px;
+$screen-lg: 1024px;
+
 

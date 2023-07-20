@@ -1,6 +1,131 @@
 @use '../abstracts/variables';
 @use '../abstracts/mixins';
 
+
+.hero {
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    
+
+    &__image--mobil {
+        width: 100%;
+        z-index: -1;
+        
+        grid-column: 1 / -1;
+        grid-row: 1 / 3;
+
+        @include mixins.display-lg {
+            display: none;
+        }
+       
+    }
+
+    &__image--desktop {
+        display: none;
+
+        @include mixins.display-lg {
+            z-index: -1;
+            display: block;
+            width: 100%;
+            grid-column: 1 / -1;
+            grid-row: 1 / -1;
+        }
+    }
+
+    &__blockquote {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        text-align: center;
+        background-color: variables.$color-secondary-op;
+        @include mixins.radius-item;
+        padding: variables.$half-spacer;
+        width: 75%;
+        
+
+        @include mixins.display-med {
+            padding: variables.$spacer;
+           
+                
+        }
+      
+    
+        @include mixins.display-lg {
+            padding: variables.$double-spacer;
+            grid-column: 1 / 2;
+            width: 100%;
+            background: none;
+                   
+        }
+    }
+
+    &__quote {
+        font-size: 1em;
+        font-family: variables.$special-font;
+
+        @include mixins.display-med {
+            font-size: 1.5em;
+        }
+
+        @include mixins.display-lg {
+            font-size: 2em;
+            text-align: start;
+            @include mixins.margin-b
+           
+        }
+
+        
+    }
+
+    &__author {
+        font-size: 0.8em;
+        text-align: center;
+
+        @include mixins.display-med {
+            font-size: 1em;
+            
+        }
+
+        @include mixins.display-lg {
+            font-size: 1.2em;
+            text-align: right;
+            
+           
+        }
+        
+    }
+
+    &__author::before{
+        content: "";
+        display: inline-block;
+        width: 30px;
+        height: 3px;
+        background-color: variables.$color-primary;
+        margin: 12px -55px 24px 10px;
+
+        @include mixins.display-med {
+            margin: 12px -65px 24px 0px;
+        }
+        
+        @include mixins.display-lg {
+           margin: 0 variables.$spacer 6px 0;
+           
+        }
+       
+    }
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+
 .welcome {
     &__text {
         background-color: variables.$color-secondary;
@@ -12,10 +137,18 @@
     &__image {
         width: 100%;
 
-        &--woman {
-            width: 40%;
-            display: block;
-            margin: variables.$double-spacer auto;
-        }
     }
+}
+
+// .new-articles-wrapper {
+//     // display: flex;
+//     gap: variables.$spacer;
+
+// }
+
+.link--new-articles {
+    display: block;
+    margin: variables.$double-spacer 0;
+    text-align: center;
+    font-size: 1.2em;
 }

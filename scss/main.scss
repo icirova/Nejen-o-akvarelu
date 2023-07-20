@@ -2,6 +2,7 @@
 @use 'layout/menu';
 @use 'layout/footer';
 @use 'layout/article';
+@use 'layout/grid';
 
 @use 'pages/index';
 @use 'pages/clanky';
@@ -9,3 +10,6 @@
 @use 'pages/homepage';
 
 @use 'base/base';
+
+@use 'components/card';
+@use 'components/buttons';

@@ -7,24 +7,16 @@
     padding: variables.$spacer;
 }
 
-.card-wrapper {
-    
-    @media screen and (min-width: 600px) {
-        display: flex;
-        gap: variables.$spacer;
-        justify-content: space-between;
-        max-width: 1200px;
-        margin: 0 auto;
-    
-        @include mixins.margin-b;
-    }
-        
 
-   
-}
 
-.image--profil {
+.card__image--profil {
     border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+.card--footer {
+    background-color: white;
 }
 
 
@@ -33,12 +25,9 @@
 
 
 
-.card {
-    padding: variables.$spacer;
-    flex-basis: 50%;
-    text-align: center;
-}
+
 
 .copy {
+    margin-top: variables.$spacer;
     text-align: center;
 }

@@ -6,9 +6,30 @@ layout: layouts/main-template.njk
 
 <div class="container">
 
+    <section class="hero">
+
+       
+        <img class="hero__image hero__image--desktop dissolve-image" src="/images/bird-desktop2.png" alt="kolibřík">
+        <img class="hero__image hero__image--mobil dissolve-image" src="/images/bird-mobil2.png" alt="kolibřík">
+    
+
+        <blockquote class="hero__blockquote">
+
+            <p class="hero__quote">„Akvarel je hlas vody, který tiše vypráví příběh barev.“</p>
+            <p class="hero__author">Iveta Círová</p>
+
+        </blockquote>
+
+        <div class="buttons">
+            <a class="btn btn--low-opacity" href="/clanky/">Články</a>
+            <a class="btn btn--outline" href="/inspirace/">Inspirace</a>
+          </div>
+
+    </section>
+
     <section class="welcome">
 
-        <img class="welcome__image welcome__image--woman" src="/images/woman.png" alt="dívka"> 
+        <!-- <img class="welcome__image welcome__image--woman" src="/images/woman.png" alt="dívka">  -->
 
         <h1 class="section-title">Vítejte</h1>
 
@@ -30,11 +51,25 @@ layout: layouts/main-template.njk
 
     <section class="new-articles">
 
-        <h1 class="section-title">Nejnovější články</h1>
+        
 
-        {{ content | safe }}
+            <h1 class="section-title">Nejnovější články</h1>
+
+
+
+            <div class="new-articles-wrapper">
+
+                {{ content | safe }}
+
+            </div>
+
+    
+
+        <a class="link link--new-articles" href="/clanky/">Další články</a>
 
     </section>
+
+
 
 </div>
 

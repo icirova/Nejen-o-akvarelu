@@ -1,0 +1,30 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+
+.card {
+
+    background-image: url(/images/background.png);
+    padding: variables.$spacer;
+    
+    @include mixins.margin-b;
+    
+    flex-basis: 50%;
+    text-align: center;
+
+    &__image {
+        display: block;
+       
+        @include mixins.margin-b;
+    }
+
+    &__title {
+        @include mixins.margin-b;
+        font-size: 2em;
+    }
+
+    &__description {
+        @include mixins.margin-b;
+    }
+
+}

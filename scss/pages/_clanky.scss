@@ -1,2 +1,7 @@
 @use '../abstracts/variables';
 @use '../abstracts/mixins';
+
+.link--article {
+    display: block;
+    margin-top: variables.$spacer;
+}

@@ -2,46 +2,88 @@
 @use '../abstracts/mixins';
 
 .header {
-    background-image: url(/images/background.png);
-    background-size: cover;
-    min-height: 350px;
     padding: variables.$spacer;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    @media screen and (min-width: 600px) {
-        justify-content: space-around;
-        padding-bottom: 0;
-    }
-
-    &__image {
-
-        display: block;
-        margin: auto;
-
-        @include mixins.margin-b;
-
-        @media screen and (min-width: 600px) {
-                margin: 0;
-                width: 200px;
-        }
-
-        &--title {
-            width: 380px;
-        }
-
-    }
-
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
+.logo {
+    text-align: center;
+    font-size: variables.$font-med;
+    text-transform: uppercase;
+  
+    @include mixins.margin-b;
+
+    &__color {
+        color: variables.$color-primary;
+    }
+
+    @include mixins.display-med {
+        font-size: variables.$font-lg;
+    }
+
+    @include mixins.display-lg {
+        margin-bottom: 0;
+    }
+
+    &__bef::before{
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 2px;
+        background-color: black;
+        margin: 8px 12px;
+
+        @include mixins.display-med {
+            margin:  9px 12px;
+        }
+       
+        @include mixins.display-lg {
+            height: 3px;
+        }
+    }
+
+    &__bef::after{
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 2px;
+        background-color: black;
+        margin: 8px 12px;
+
+        @include mixins.display-med {
+            margin:  9px 12px;
+        }
+       
+        @include mixins.display-lg {
+            height: 3px;
+        }
+    }  
+}
+
+@keyframes dissolve {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .dissolve-image {
+    animation: dissolve 3s linear;
+  }
+
+
 
 .header-wrapper {
 
-    @media screen and (min-width: 600px) {
+   
+    @include mixins.display-lg {
         display: flex;
-        flex-direction: row-reverse;
-        gap: variables.$spacer
+        justify-content: space-between;
+        gap: variables.$double-spacer;
+        align-items: center;
     }
     
     
