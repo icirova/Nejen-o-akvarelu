@@ -9,7 +9,9 @@
 
 .logo {
     text-align: center;
-    font-size: variables.$font-med;
+    color: black;
+    font-family: variables.$default-font;
+    font-weight: 400;
     text-transform: uppercase;
   
     @include mixins.margin-b;
@@ -19,7 +21,7 @@
     }
 
     @include mixins.display-med {
-        font-size: variables.$font-lg;
+        
     }
 
     @include mixins.display-lg {

@@ -143,15 +143,11 @@
     }
 }
 
-.buttons {
-    display: flex;
-    gap: variables.$spacer;
 
-
-}
 
 
 .welcome {
+    
     &__text {
         background-color: variables.$color-secondary;
         padding: variables.$spacer;
@@ -165,13 +161,19 @@
     }
 }
 
-// .new-articles-wrapper {
-//     // display: flex;
-//     gap: variables.$spacer;
+.new-articles-wrapper {
 
-// }
+    @include mixins.display-lg {
+       display: flex;
+       gap: variables.$spacer;
 
-.link--new-articles {
+    }
+
+    
+
+}
+
+.link--homepage {
     display: block;
     margin: variables.$double-spacer 0;
     text-align: center;

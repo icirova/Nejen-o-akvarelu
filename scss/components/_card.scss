@@ -4,27 +4,41 @@
 
 .card {
 
-    background-image: url(/images/background.png);
+    background-color: variables.$color-secondary-op;
     padding: variables.$spacer;
     
-    @include mixins.margin-b;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
     
-    flex-basis: 50%;
-    text-align: center;
+   
+    @include mixins.margin-b;
 
-    &__image {
-        display: block;
-       
-        @include mixins.margin-b;
+    flex-basis: 100%;
+    
+
+    &__content {
+        display: grid;
+        gap: variables.$spacer;
+        justify-items: center;
+
     }
 
-    &__title {
-        @include mixins.margin-b;
-        font-size: 2em;
+    &__description--date {
+        font-size: 0.8em;
+        font-family: variables.$special-font;
     }
 
-    &__description {
-        @include mixins.margin-b;
+    &__link {
+        margin-top: variables.$spacer;
+        align-self: center;
     }
+
+    
+    
+
 
 }

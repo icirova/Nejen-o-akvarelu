@@ -17,22 +17,18 @@ h3 {
 }
 
 .section-title {
-    text-align: center;
     font-size: 2em;
+    text-align: center;
     margin: variables.$double-spacer 0;
-
-    @media screen and (min-width: 600px) {
-        font-size: 3em;
-    }
 }
 
 .main {
-    padding: variables.$spacer;
+    padding: 0 variables.$spacer;
 
     @include mixins.display-med {
         max-width: 1200px;
         margin: 0 auto;
-        padding: 0;
+        
     }
 }
 
