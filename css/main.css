@@ -11,7 +11,7 @@
   margin-bottom: 24px;
 }
 .logo__color {
-  color: #DC8676;
+  color: #bf6b5d;
 }
 @media screen and (min-width: 680px) {
   .logo {
@@ -49,7 +49,7 @@
   position: absolute;
   left: -9999px;
 }
-@media screen and (max-width: 679px) {
+@media screen and (min-width: 680px) {
   .menu__checkbox:checked ~ .menu__list {
     display: block;
   }
@@ -88,22 +88,17 @@
   font-family: "Open Sans", sans-serif;
   padding: 12px;
 }
-@media screen and (min-width: 680px) {
-  .menu__item {
-    font-size: 1.8em;
-  }
-}
 .menu__link:hover, .menu__link:focus {
   cursor: pointer;
 }
 @media screen and (min-width: 680px) {
   .menu__link:hover, .menu__link:focus {
-    color: #DC8676;
+    color: #bf6b5d;
   }
 }
 
 .menu__link--active {
-  color: #DC8676;
+  color: #bf6b5d;
 }
 
 .menu-wrapper {
@@ -148,7 +143,7 @@
   font-size: 1.2em;
 }
 .article__meta {
-  color: #DC8676;
+  color: #bf6b5d;
 }
 .article__perex {
   font-size: 1em;
@@ -169,6 +164,7 @@
   .buttons {
     grid-column: 1/2;
     justify-self: start;
+    margin-left: 48px;
   }
 }
 
@@ -211,7 +207,7 @@
   grid-column: 1/-1;
   grid-row: 1/2;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 2px;
   padding: 12px;
   width: 75%;
@@ -265,7 +261,7 @@
   display: inline-block;
   width: 30px;
   height: 2px;
-  background-color: #DC8676;
+  background-color: #bf6b5d;
   margin: 12px -55px 24px 10px;
 }
 @media screen and (min-width: 680px) {
@@ -319,7 +315,7 @@ h1,
 h2,
 h3 {
   font-family: "Open Sans", sans-serif;
-  color: #DC8676;
+  color: #bf6b5d;
 }
 
 .section-title {
@@ -344,7 +340,7 @@ h3 {
 }
 
 .link {
-  color: #DC8676;
+  color: #bf6b5d;
 }
 
 .card {
@@ -369,39 +365,37 @@ h3 {
 .btn {
   display: block;
   text-decoration: none;
-  background-color: #DC8676;
+  background-color: #bf6b5d;
   color: white;
   padding: 10px 15px;
-  border: 2px solid #DC8676;
+  border: 2px solid #bf6b5d;
   width: 100px;
   text-align: center;
   border-radius: 2px;
-  box-shadow: rgba(149, 157, 165, 0.2) 8px 4px 18px;
 }
 @media screen and (min-width: 680px) {
   .btn {
-    width: 180px;
+    width: 120px;
     padding: 15px 20px;
-    font-size: 1.4em;
   }
 }
 @media screen and (min-width: 1024px) {
   .btn {
-    width: 200px;
+    width: 140px;
   }
 }
 .btn:hover, .btn:active {
   cursor: pointer;
-  background-color: #DC8676;
+  background-color: #bf6b5d;
 }
 .btn--outline {
-  border: 2px solid #DC8676;
-  color: #DC8676;
-  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid #bf6b5d;
+  color: #bf6b5d;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .btn--outline:hover, .btn--outline:active {
   background-color: #f9e7e2;
 }
 .btn--low-opacity {
-  background-color: rgba(220, 134, 118, 0.5);
+  background-color: rgba(220, 134, 118, 0.8);
 }/*# sourceMappingURL=main.css.map */

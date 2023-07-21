@@ -9,7 +9,7 @@
     }
 
     &__checkbox:checked ~ .menu__list {
-        @media screen and (max-width: 679px) {
+        @include mixins.display-med {
             display: block;
         }   
     }
@@ -21,7 +21,7 @@
         font-size: 1.4em;
        
 
-        @media screen and (min-width: 680px) {
+        @include mixins.display-med {
             display: none;
         }
     }
@@ -32,7 +32,7 @@
         align-self: center;
        
         
-        @media screen and (min-width: 680px) {
+        @include mixins.display-med {
         display: flex;
         justify-content: center;
        
@@ -44,6 +44,7 @@
     &__link {
         text-decoration: none;
         color: black;
+        
     }
 
     &__item {
@@ -56,10 +57,7 @@
        
       
               
-        @media screen and (min-width: 680px) {
-           
-            font-size: 1.8em;
-        }
+       
     }
     
     &__link:hover, &__link:focus {

@@ -4,7 +4,7 @@
 .btn {
     @include mixins.button;
 
-    @include mixins.shadow;
+    // @include mixins.shadow;
 
     &:hover,
     &:active {
@@ -21,6 +21,7 @@
         color: variables.$color-primary;
         
         background-color: variables.$color-secondary-op;
+        
 
         &:hover,
         &:active {

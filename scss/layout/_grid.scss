@@ -9,6 +9,7 @@
     @include mixins.display-lg {
         grid-column: 1 / 2;
         justify-self: start;
+        margin-left: variables.$double-spacer;
 
     }
 }

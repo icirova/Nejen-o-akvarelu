@@ -40,13 +40,13 @@
     @include radius-item;
 
     @include display-med {
-        width: 180px;
+        width: 120px;
         padding: 15px 20px;
-        font-size: 1.4em;
+        
     }
 
     @include display-lg {
-        width: 200px;
+        width: 140px;
     }
 }
 
