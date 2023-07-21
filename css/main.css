@@ -58,6 +58,7 @@
   display: block;
   text-align: center;
   cursor: pointer;
+  font-size: 1.2em;
 }
 @media screen and (min-width: 680px) {
   .menu__toggler {
@@ -157,12 +158,13 @@
 .buttons {
   grid-column: 1/-1;
   grid-row: 2/3;
-  align-self: start;
+  align-self: center;
 }
 @media screen and (min-width: 1024px) {
   .buttons {
     grid-column: 1/2;
     justify-self: start;
+    align-self: start;
     margin-left: 48px;
   }
 }
@@ -185,13 +187,40 @@
   grid-column: 1/-1;
   grid-row: 1/3;
 }
+@media screen and (min-width: 680px) {
+  .hero__image--mobil {
+    display: none;
+  }
+}
 @media screen and (min-width: 1024px) {
   .hero__image--mobil {
     display: none;
   }
 }
+.hero__image--tablet {
+  width: 100%;
+  z-index: -1;
+  display: none;
+  grid-column: 1/-1;
+  grid-row: 1/3;
+}
+@media screen and (min-width: 680px) {
+  .hero__image--tablet {
+    display: block;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero__image--tablet {
+    display: none;
+  }
+}
 .hero__image--desktop {
   display: none;
+}
+@media screen and (min-width: 680px) {
+  .hero__image--desktop {
+    display: none;
+  }
 }
 @media screen and (min-width: 1024px) {
   .hero__image--desktop {
@@ -244,11 +273,6 @@
   font-size: 0.8em;
   text-align: center;
 }
-@media screen and (min-width: 680px) {
-  .hero__author {
-    font-size: 1em;
-  }
-}
 @media screen and (min-width: 1024px) {
   .hero__author {
     font-size: 1.2em;
@@ -265,7 +289,7 @@
 }
 @media screen and (min-width: 680px) {
   .hero__author::before {
-    margin: 12px -65px 24px 30px;
+    margin: 24px -52px 24px 30px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -335,6 +359,7 @@ h3 {
   .main {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0;
   }
 }
 
@@ -374,13 +399,8 @@ h3 {
 }
 @media screen and (min-width: 680px) {
   .btn {
-    width: 120px;
-    padding: 15px 20px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .btn {
     width: 140px;
+    padding: 15px 20px;
   }
 }
 .btn:hover, .btn:active {

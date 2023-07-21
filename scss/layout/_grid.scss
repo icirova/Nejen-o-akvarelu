@@ -4,11 +4,16 @@
 .buttons {
     grid-column: 1 / -1;
     grid-row: 2 / 3;
-    align-self: start;
+    align-self: center;
+
+    @include mixins.display-med {
+        
+    }
 
     @include mixins.display-lg {
         grid-column: 1 / 2;
         justify-self: start;
+        align-self: start;
         margin-left: variables.$double-spacer;
 
     }

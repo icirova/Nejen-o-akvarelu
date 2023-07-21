@@ -18,6 +18,28 @@
         grid-column: 1 / -1;
         grid-row: 1 / 3;
 
+        @include mixins.display-med {
+            display: none;
+        }
+
+        @include mixins.display-lg {
+            display: none;
+        }
+       
+    }
+
+    &__image--tablet {
+        width: 100%;
+        z-index: -1;
+        display: none;
+        
+        grid-column: 1 / -1;
+        grid-row: 1 / 3;
+
+        @include mixins.display-med {
+            display: block;
+        }
+
         @include mixins.display-lg {
             display: none;
         }
@@ -26,6 +48,10 @@
 
     &__image--desktop {
         display: none;
+
+        @include mixins.display-med {
+            display: none;
+        }
 
         @include mixins.display-lg {
             z-index: -1;
@@ -47,8 +73,7 @@
         
 
         @include mixins.display-med {
-            padding: variables.$spacer;
-           
+            padding: variables.$spacer;        
                 
         }
       
@@ -85,7 +110,7 @@
         text-align: center;
 
         @include mixins.display-med {
-            font-size: 1em;
+           
             
         }
 
@@ -107,7 +132,7 @@
         margin: 12px -55px 24px 10px;
 
         @include mixins.display-med {
-            margin: 12px -65px 24px 30px;
+            margin: 24px -52px 24px 30px;
         }
         
         @include mixins.display-lg {
