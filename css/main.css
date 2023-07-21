@@ -384,7 +384,6 @@ h3 {
   background-color: #bf6b5d;
   color: white;
   padding: 10px 15px;
-  border: 2px solid #bf6b5d;
   width: 100px;
   text-align: center;
   border-radius: 2px;
@@ -397,15 +396,19 @@ h3 {
 }
 .btn:hover, .btn:active {
   cursor: pointer;
-  background-color: #bf6b5d;
+  background-color: #a75042;
 }
 .btn--outline {
   border: 2px solid #bf6b5d;
   color: #bf6b5d;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(255, 255, 255);
 }
 .btn--outline:hover, .btn--outline:active {
   background-color: #f9e7e2;
+}
+.btn--outline-dark {
+  border: 2px solid black;
+  color: black;
 }
 .btn--low-opacity {
   background-color: rgba(220, 134, 118, 0.8);
