@@ -58,7 +58,6 @@
   display: block;
   text-align: center;
   cursor: pointer;
-  font-size: 1.4em;
 }
 @media screen and (min-width: 680px) {
   .menu__toggler {
