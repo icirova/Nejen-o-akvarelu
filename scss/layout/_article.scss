@@ -29,7 +29,7 @@
 
     &__perex {
         font-size: 1em;
-        background-image: url(/images/background.png);
+        background-color: variables.$color-secondary;
         background-size: cover;
         padding: variables.$half-spacer;
     }

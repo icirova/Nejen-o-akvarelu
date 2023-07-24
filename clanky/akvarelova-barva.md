@@ -4,8 +4,8 @@ title: Akvarelová barva
 subtitle: seznamte se s pigmenty
 perex: Akvarelová barva je nepochybně nejstarším médiem malby. Přírodní půdní pigmenty smíšené s vodou se používaly k vytváření hrubých, ale efektivních malovaných obrázků, které v některých případech vytrvaly po tisíce let. Půdní pigmenty se dodnes užívají, ale moderní chemie nechala vzniknout nesmírné škále spolehlivých syntetických a barevně stálých pigmentů, a proto je současní umělci přidali do své palety.
 publication: 26. 6. 2023
-image: article-colors.png
-alt: akvarelové barvy
+image: colors.webp
+alt: vodové barvy
 tags: clanek
 ---
 

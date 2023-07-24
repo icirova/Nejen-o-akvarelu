@@ -26,16 +26,6 @@
 
     &__list {
         display: none;
-       
-        align-self: center;
-       
-        
-        @include mixins.display-med {
-        display: flex;
-        justify-content: center;
-       
-        gap: variables.$double-spacer;  
-        }
     }
    
 

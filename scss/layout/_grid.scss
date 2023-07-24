@@ -1,20 +1,114 @@
 @use '../abstracts/variables';
 @use '../abstracts/mixins';
 
+
+.header-wrapper {
+
+   
+    @include mixins.display-lg {
+        display: flex;
+        justify-content: space-between;
+        gap: variables.$double-spacer;
+        align-items: center;
+    } 
+}
+
+.menu {
+    &__list {       
+        align-self: center;
+       
+        @include mixins.display-med {
+        display: flex;
+        justify-content: center;
+       
+        gap: variables.$double-spacer;  
+        }
+    }
+}
+
+.hero {
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+
+    &__image--mobil {
+        grid-column: 1 / -1;
+        grid-row: 1 / 3;
+    }
+
+    &__image--tablet {
+        grid-column: 1 / -1;
+        grid-row: 1 / 3;
+    }
+
+    &__image--desktop {
+
+        @include mixins.display-lg {
+            grid-column: 1 / -1;
+            grid-row: 1 / -1;
+        }
+    }
+
+    &__blockquote {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+
+        @include mixins.display-lg {
+            grid-column: 1 / 2;
+        }
+    }
+}
+
 .buttons {
+    display: flex;
+    gap: variables.$spacer;
+
     grid-column: 1 / -1;
     grid-row: 2 / 3;
     align-self: center;
-
-    @include mixins.display-med {
-        
-    }
 
     @include mixins.display-lg {
         grid-column: 1 / 2;
         justify-self: start;
         align-self: start;
         margin-left: variables.$double-spacer;
+    }
+}
 
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 100%;
+
+    &__content {
+        display: grid;
+        gap: variables.$spacer;
+        justify-items: center;
+    }
+
+    &__link {
+         align-self: center;
+    }
+}
+
+.new-articles-wrapper {
+
+    @include mixins.display-lg {
+       display: flex;
+       gap: variables.$spacer;
+
+    }
+}
+
+.articles-wrapper {
+    
+    @include mixins.display-lg {
+    display: grid;
+    grid-template-columns: repeat(3, calc(100% / 3));
+    gap: variables.$spacer;
     }
 }

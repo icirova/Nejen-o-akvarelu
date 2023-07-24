@@ -4,8 +4,8 @@ title: Vodorozpustná média
 subtitle: různé způsoby aplikace barvy
 perex: Tradiční akvarelové barvy nejsou jediným druhem vodorozpustného média, které je k mání. Tekuté akvarelové barvy a akrylové tuše, akvarelová pera, markery, tužky a pastely; počet možností a efektů dosažených na bázi vody neustále roste. Opacitní akvarelovou barvou, která se dá smíchat s tradiční transparentní akvarelovou barvou, je kvaš.
 publication: 27. 6. 2023
-image: article-media.png
-alt: barvy
+image: media.webp
+alt: média
 tags: clanek
 ---
 

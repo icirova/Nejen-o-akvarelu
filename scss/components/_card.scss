@@ -3,28 +3,20 @@
 
 
 .card {
-
     background-color: variables.$color-secondary-op;
     padding: variables.$spacer;
-    
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-
-    
-   
     @include mixins.margin-b;
 
-    flex-basis: 100%;
-    
+    &__image {
+        display: block;
+        width: 100%;
 
-    &__content {
-        display: grid;
-        gap: variables.$spacer;
-        justify-items: center;
+    }
 
+
+    &__title {
+    font-size: variables.$font-med;
     }
 
     &__description--date {
@@ -34,11 +26,9 @@
 
     &__link {
         margin-top: variables.$spacer;
-        align-self: center;
+        border: 2px solid variables.$color-primary;
+        color: variables.$color-primary;
     }
 
-    
-    
-
-
 }
+

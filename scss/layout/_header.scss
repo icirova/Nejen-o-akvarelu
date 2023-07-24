@@ -78,18 +78,6 @@
 
 
 
-.header-wrapper {
-
-   
-    @include mixins.display-lg {
-        display: flex;
-        justify-content: space-between;
-        gap: variables.$double-spacer;
-        align-items: center;
-    }
-    
-    
-}
 
 
 

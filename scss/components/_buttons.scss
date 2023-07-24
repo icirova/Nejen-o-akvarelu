@@ -13,37 +13,28 @@
        
     }
 
-
-
-
     &--outline {
-        border: 2px solid black;
-        color: black;
+        border: 2px solid variables.$color-primary;
+        color: variables.$color-primary;
         
         background-color: rgb(255, 255, 255);
         
-
         &:hover,
         &:active {
-           
             background-color: variables.$color-secondary;
-           
+        }
+
+        &-hero {
+            border: 2px solid black;
+            color: black;
         }
     }
+    
 
 
     &--low-opacity {
         background-color: variables.$color-primary-op;
     }
-
-   
-
-}
-
-.buttons {
-    display: flex;
-    gap: variables.$spacer;
-
 
 }
 

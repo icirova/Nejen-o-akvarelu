@@ -4,7 +4,7 @@ title: Štětce
 subtitle: Nástroje, které si zvolíte
 perex: Štětce nesporně představují nejběžnější způsob, jak aplikovat barvu na papír. Jsou k dostání v obrovské škále velikostí a typů. I když nejběžnější jsou kulaté a ploché štětce s jemnými chlupy, existuje také spousta jiných tvarovaných štětců, vyrobených pro zvláštní využití.
 publication: 29. 6. 2023
-image: article-brushes.png
+image: brushes.webp
 alt: štětce
 tags: clanek
 ---
