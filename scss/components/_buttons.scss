@@ -17,8 +17,8 @@
 
 
     &--outline {
-        border: 2px solid variables.$color-primary;
-        color: variables.$color-primary;
+        border: 2px solid black;
+        color: black;
         
         background-color: rgb(255, 255, 255);
         
@@ -31,10 +31,6 @@
         }
     }
 
-    &--outline-dark {
-        border: 2px solid black;
-        color: black;
-    }
 
     &--low-opacity {
         background-color: variables.$color-primary-op;
