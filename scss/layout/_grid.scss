@@ -82,12 +82,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-basis: 100%;
-
+    
     &__content {
         display: grid;
         gap: variables.$spacer;
         justify-items: center;
+
+        
     }
 
     &__link {
@@ -96,19 +97,17 @@
 }
 
 .new-articles-wrapper {
-
-    @include mixins.display-lg {
-       display: flex;
-       gap: variables.$spacer;
-
-    }
+    @include mixins.aligner;
 }
 
 .articles-wrapper {
     
-    @include mixins.display-lg {
-    display: grid;
-    grid-template-columns: repeat(3, calc(100% / 3));
-    gap: variables.$spacer;
-    }
+    @include mixins.aligner;
+    
+}
+
+.footer-card-wrapper {
+    @include mixins.aligner;
+    
+    
 }

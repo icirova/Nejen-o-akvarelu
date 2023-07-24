@@ -6,7 +6,7 @@ perex: Štětce nesporně představují nejběžnější způsob, jak aplikovat 
 publication: 29. 6. 2023
 image: brushes.webp
 alt: štětce
-tags: clanek
+tags: ['clanek', 'zaklady']
 ---
 
 ## Tvary štětců

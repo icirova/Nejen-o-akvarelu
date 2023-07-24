@@ -35,6 +35,10 @@
     }
 
     & * {
-        margin-bottom: 20px;
+        @include mixins.margin-b
     }
+}
+
+.link--article {
+    margin: variables.$spacer auto;   
 }

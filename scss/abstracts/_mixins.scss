@@ -61,3 +61,14 @@
     padding: variables.$double-spacer;
 }
 
+@mixin aligner {
+    @include display-lg {
+        display: grid;
+        column-gap: variables.$spacer;
+        grid-template-columns: repeat(3, 1fr)
+         
+     }
+}
+
+
+

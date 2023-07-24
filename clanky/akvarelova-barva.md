@@ -6,7 +6,7 @@ perex: Akvarelová barva je nepochybně nejstarším médiem malby. Přírodní 
 publication: 26. 6. 2023
 image: colors.webp
 alt: vodové barvy
-tags: clanek
+tags: ['clanek', 'zaklady']
 ---
 
 ## Co je akvarelová barva?

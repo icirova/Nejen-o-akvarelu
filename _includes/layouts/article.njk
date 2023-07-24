@@ -12,7 +12,7 @@ layout: layouts/main-template.njk
                 
     <h1 class="article__title"> {{ title }} </h1>
     <p class="article__subtitle"> {{ subtitle }} </p>
-    <p class="article__meta">Publikováno {{ page.date.toLocaleString('cs-CZ') }} </p>
+    <p class="article__meta">{{ page.date.toLocaleString('cs-CZ') }} </p>
     
     <div class="article__content">
 
@@ -32,7 +32,7 @@ layout: layouts/main-template.njk
 
 </article>
 
-<a class="link link--articles" href="/clanky/">Zpět</a>
+<a class="btn btn--outline link--article" href="/clanky/">Zpět</a>
 
 </main>
 

@@ -6,7 +6,7 @@ perex: Akvarelové barvy už existují tisíce let, ale umělci si dodnes užív
 publication: 25. 6. 2023
 image: akvarel.webp
 alt: pozadí
-tags: clanek
+tags: ['clanek', 'zaklady']
 ---
 
 Akvarel vytváří transparentní vrstvy; výsledkem je svěžest, jasnost a záře, jakých s žádným jiným médiem nedosáhnete. Akvarel také poskytuje umělci okamžitý efekt, stejně jako určitou dávku nepředvídavosti - pro akvarel je často nejlepší, když ho necháme, aby se vydal svou vlastní cestou, pak vytváří krásné a nečekaně jemné prolínání.

@@ -2,30 +2,21 @@
 @use '../abstracts/mixins';
 
 .footer {
-    background-image: url(/images/background.png);
-    background-size: cover;
     padding: variables.$spacer;
+    background-color: variables.$color-secondary;
+
+    @include mixins.display-med {
+        // max-width: 1200px;
+        margin: 0 auto;
+        
+    }
 }
 
-
-
-.card__image--profil {
-    border-radius: 50%;
+.footer-card-wrapper {
+    max-width: 1200px;
     margin: 0 auto;
-
+    padding: 0 variables.$spacer;
 }
-
-.card--footer {
-    background-color: white;
-}
-
-
-
-
-
-
-
-
 
 .copy {
     margin-top: variables.$spacer;

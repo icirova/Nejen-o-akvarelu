@@ -6,7 +6,7 @@ perex: Téměř všechny malby akvarelem využívají jako primární podložku 
 publication: 28. 6. 2023
 image: paper.webp
 alt: papíry
-tags: clanek
+tags: ['clanek', 'zaklady']
 ---
 
 ## Co je akvarelový papír?

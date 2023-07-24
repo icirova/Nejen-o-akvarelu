@@ -6,7 +6,7 @@ perex: Tradiční akvarelové barvy nejsou jediným druhem vodorozpustného méd
 publication: 27. 6. 2023
 image: media.webp
 alt: média
-tags: clanek
+tags: ['clanek', 'zaklady']
 ---
 
 ## Tuše a tekuté akvarelové barvy
