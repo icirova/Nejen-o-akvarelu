@@ -93,10 +93,23 @@
   }
 }
 
-.footer-card-wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
+@media screen and (min-width: 1024px) {
+  .footer-card-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+}
+
+.link--footer {
+  text-align: center;
+  margin-top: 24px;
+  display: block;
+}
+@media screen and (min-width: 1024px) {
+  .link--footer {
+    margin-top: 0;
+  }
 }
 
 .copy {
@@ -361,10 +374,13 @@
 }
 
 .link--homepage {
-  display: block;
   margin: 48px 0;
   text-align: center;
-  font-size: 1.2em;
+  display: block;
+}
+
+.sources {
+  margin-bottom: 24px;
 }
 
 html {
@@ -392,6 +408,10 @@ h3 {
 .section-title {
   font-size: 2em;
   text-align: center;
+  margin: 48px 0;
+}
+
+.section-subtitle {
   margin: 48px 0;
 }
 
@@ -465,4 +485,8 @@ h3 {
 }
 .btn--low-opacity {
   background-color: rgba(220, 134, 118, 0.8);
+}
+.btn--profil {
+  width: 140px;
+  padding: 15px 20px;
 }/*# sourceMappingURL=main.css.map */

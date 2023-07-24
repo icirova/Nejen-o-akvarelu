@@ -6,19 +6,34 @@
     background-color: variables.$color-secondary;
 
     @include mixins.display-med {
-        // max-width: 1200px;
-        margin: 0 auto;
+      margin: 0 auto;
         
     }
 }
 
 .footer-card-wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 variables.$spacer;
+
+    @include mixins.display-lg {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 variables.$spacer;
+    }
+    
+}
+
+.link--footer {
+    text-align: center;
+    margin-top: variables.$spacer;
+    display: block;
+
+    @include mixins.display-lg {
+        margin-top: 0;
+    }
+
 }
 
 .copy {
     margin-top: variables.$spacer;
     text-align: center;
+   
 }
