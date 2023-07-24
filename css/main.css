@@ -46,10 +46,8 @@
   position: absolute;
   left: -9999px;
 }
-@media screen and (min-width: 680px) {
-  .menu__checkbox:checked ~ .menu__list {
-    display: block;
-  }
+.menu__checkbox:checked ~ .menu__list {
+  display: block;
 }
 .menu__toggler {
   display: block;

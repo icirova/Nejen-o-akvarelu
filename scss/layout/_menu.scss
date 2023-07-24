@@ -9,9 +9,7 @@
     }
 
     &__checkbox:checked ~ .menu__list {
-        @include mixins.display-med {
-            display: block;
-        }   
+            display: block;  
     }
 
     &__toggler {
