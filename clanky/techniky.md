@@ -6,7 +6,7 @@ perex: Jako médium jsou akvarelové barvy neuvěřitelně všestranné a povedo
 publication: 24. 7. 2023
 image: techniky.webp
 alt: techniky akvarelu
-tags: ['clanek', 'zaklady']
+tags: ['clanek', 'techniky']
 ---
 
 Akvarelová barva plyne lehce a její nepředvídatelnost je součástí její přitažlivosti. Naučit se, jak ji kontrolovat, je základem pro práci s akvarelem, od nanášení rovnoměrné lazury až po začlenění přetečení barvy do vašeho díla. Dovolte barvám splynout metodou mokrým do mokrého a vytvořte jemné prolínání a další efekty. Naproti tomu můžete pracovat i metodou mokrým do suchého, přidat ostrý detail a kontrolované okraje.

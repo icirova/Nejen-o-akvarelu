@@ -41,5 +41,12 @@
         padding: 15px 20px;
     }
 
+    &--form {
+        border: 0;
+        font-size: variables.$font-sm;
+        font-family: variables.$default-font;
+        margin: 0 auto;        
+    }
+
 }
 

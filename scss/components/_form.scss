@@ -1,0 +1,30 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+.form {
+    
+
+    &__label {
+        display: block; 
+       
+    }
+
+    &__field {
+       
+        @include mixins.margin-b;
+    }
+
+    &__textarea {
+        padding: variables.$mini-spacer;
+    }
+
+    &__field input {
+        width: 100%;
+        height: 30px;
+        padding: variables.$mini-spacer;
+    }
+
+    &__required {
+        color: red;
+    }
+}

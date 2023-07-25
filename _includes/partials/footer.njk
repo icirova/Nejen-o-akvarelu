@@ -20,9 +20,29 @@
         
             <div class="card__content">   
                 <h1 class="card__title">Ptej se</h1>
-            </div>
 
-           
+                <form class="form" method="post" action="#">
+                    
+                    <div class="form__field">
+                        <label class="form__label" for="name">Jméno</label>
+                        <input class="form__input" type="text" name="name" id="name">
+                    </div>
+
+                    <div class="form__field">
+                        <label class="form__label" for="email">E–mail <span class="form__required">*</span></label>
+                        <input class="form__input" type="email" name="email" id="email">
+                    </div>
+
+                    <div class="form__field">
+                        <label class="form__label" for="message">Zpráva <span class="form__required">*</span></label>
+                        <textarea class="form__textarea" name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+            
+                    <input class="btn btn--form" type="submit" value="Odeslat" id="submit">
+
+                </form> 
+
+            </div>
 
         </div>
 

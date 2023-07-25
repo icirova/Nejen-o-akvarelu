@@ -8,9 +8,9 @@
 
     @include mixins.margin-b;
 
-    // @include mixins.display-lg {
-    //     margin-bottom: 0;
-    // }
+    @include mixins.display-lg {
+        margin-bottom: 0;
+    }
 
 
 

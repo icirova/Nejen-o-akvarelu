@@ -26,10 +26,6 @@
     margin-top: variables.$spacer;
     display: block;
 
-    @include mixins.display-lg {
-        margin-top: 0;
-    }
-
 }
 
 .copy {
