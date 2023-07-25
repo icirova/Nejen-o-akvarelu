@@ -36,7 +36,7 @@
             margin: 0 auto;
 
             @include mixins.display-med {
-                width: 75%;
+                width: 50%;
             }
 
             @include mixins.display-lg {

@@ -461,7 +461,7 @@ h3 {
 }
 @media screen and (min-width: 680px) {
   .card__image--profil {
-    width: 75%;
+    width: 50%;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -528,6 +528,11 @@ h3 {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 680px) {
+  .form {
+    width: 100%;
+  }
+}
 .form__label {
   display: block;
 }
@@ -537,10 +542,23 @@ h3 {
 .form__textarea {
   padding: 8px;
 }
+@media screen and (min-width: 680px) {
+  .form__textarea {
+    width: 100%;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+  }
+}
 .form__field input {
   width: 100%;
   height: 30px;
   padding: 8px;
+}
+@media screen and (min-width: 680px) {
+  .form__field input {
+    height: 40px;
+    font-size: 1em;
+  }
 }
 .form__required {
   color: red;
