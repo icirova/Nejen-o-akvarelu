@@ -93,11 +93,10 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 680px) {
   .footer-card-wrapper {
-    max-width: 1200px;
+    max-width: 1152px;
     margin: 0 auto;
-    padding: 0 24px;
   }
 }
 
@@ -114,15 +113,19 @@
 
 .article {
   background-size: cover;
-  padding: 12px;
   margin-bottom: 24px;
 }
 .article__image {
   max-width: 100%;
 }
 .article__title {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 500;
+}
+@media screen and (min-width: 680px) {
+  .article__title {
+    font-size: 2.5em;
+  }
 }
 .article__subtitle {
   text-transform: uppercase;
