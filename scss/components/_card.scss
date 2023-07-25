@@ -18,6 +18,32 @@
         display: block;
         width: 100%;
 
+        &--contact {
+            width: 50%;
+            margin: 0 auto;
+
+            @include mixins.display-med {
+                width: 30%;
+            }
+
+            @include mixins.display-lg {
+                width: 100%;
+            }
+        }
+
+        &--profil {
+            width: 100%;
+            margin: 0 auto;
+
+            @include mixins.display-med {
+                width: 75%;
+            }
+
+            @include mixins.display-lg {
+                width: 100%;
+            }
+        }
+
     }
 
 

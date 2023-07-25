@@ -441,6 +441,34 @@ h3 {
   display: block;
   width: 100%;
 }
+.card__image--contact {
+  width: 50%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 680px) {
+  .card__image--contact {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .card__image--contact {
+    width: 100%;
+  }
+}
+.card__image--profil {
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 680px) {
+  .card__image--profil {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .card__image--profil {
+    width: 100%;
+  }
+}
 .card__title {
   font-size: 1.5em;
 }
