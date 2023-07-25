@@ -437,6 +437,10 @@ h3 {
     margin-bottom: 0;
   }
 }
+.card--contact {
+  gap: 24px;
+  align-items: center;
+}
 .card__image {
   display: block;
   width: 100%;

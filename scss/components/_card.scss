@@ -12,7 +12,10 @@
         margin-bottom: 0;
     }
 
-
+    &--contact {
+        gap: variables.$spacer;
+        align-items: center;
+    }
 
     &__image {
         display: block;
@@ -55,6 +58,7 @@
         font-size: 0.8em;
         font-family: variables.$special-font;
     }
+
 
     &__link {
         margin-top: variables.$spacer;
