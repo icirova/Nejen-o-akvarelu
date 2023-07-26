@@ -3,6 +3,8 @@ module.exports=function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.addPassthroughCopy("clanky");
 
+    // eleventyConfig.addPassthroughCopy("**/*.js");
+
     eleventyConfig.addFilter("limit", function (arr, limit) {
         return arr.slice(0, limit);
     });
