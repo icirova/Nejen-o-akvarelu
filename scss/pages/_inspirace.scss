@@ -1,2 +1,75 @@
 @use '../abstracts/variables';
 @use '../abstracts/mixins';
+
+
+.image {
+
+     position: relative;
+     overflow: hidden;
+
+     &:hover &__description {
+        transform: translateY(-99%); //posunu description o 100% jeho výšky po ose y
+     }
+
+     &:hover &__img {
+        transform: scale(1.1);
+     }
+
+
+
+    &__img {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        transition: transform 0.5s;
+       
+        
+       
+        
+        @include mixins.display-med {
+            margin: 0;
+        }
+    }
+
+    &__description {
+        background-color: variables.$color-secondary-op;
+        text-align: center;
+        padding: 5px;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        transition: transform 0.5s;
+    }
+}
+
+
+.inspiration {
+    @include mixins.display-med {
+        display: grid;
+        gap: variables.$spacer;
+        grid-template-columns: repeat(2, 1fr);
+        @include mixins.margin-b;
+    }
+
+    //zarovnání pro velké displaye
+    @include mixins.aligner;
+
+    
+}
+
+.my-work {
+    @include mixins.display-med {
+        display: grid;
+        gap: variables.$spacer;
+        grid-template-columns: repeat(2, 1fr);
+        @include mixins.margin-b;
+    }
+
+    //zarovnání pro velké displaye
+    @include mixins.aligner;
+
+    
+}
+
+
