@@ -264,6 +264,12 @@
 .image {
   position: relative;
   overflow: hidden;
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 680px) {
+  .image {
+    margin: 0;
+  }
 }
 .image:hover .image__description {
   transform: translateY(-99%);
@@ -581,10 +587,6 @@ h3 {
 }
 .btn--outline:hover, .btn--outline:active {
   background-color: #f9e7e2;
-}
-.btn--outline-hero {
-  border: 2px solid black;
-  color: black;
 }
 .btn--low-opacity {
   background-color: rgba(220, 134, 118, 0.8);

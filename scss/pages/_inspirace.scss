@@ -4,14 +4,20 @@
 
 .image {
 
-     position: relative;
-     overflow: hidden;
+    position: relative;
+    overflow: hidden;
 
-     &:hover &__description {
+    @include mixins.margin-b;
+
+    @include mixins.display-med {
+        margin: 0;
+    }
+
+    &:hover &__description {
         transform: translateY(-99%); //posunu description o 100% jeho výšky po ose y
      }
 
-     &:hover &__img {
+    &:hover &__img {
         transform: scale(1.1);
      }
 

@@ -27,40 +27,6 @@
     @include mixins.display-lg {
         margin-bottom: 0;
     }
-
-    // &__bef::before{
-    //     content: "";
-    //     display: inline-block;
-    //     width: 10px;
-    //     height: 2px;
-    //     background-color: black;
-    //     margin: 8px 12px;
-
-    //     @include mixins.display-med {
-    //         margin:  9px 12px;
-    //     }
-       
-    //     @include mixins.display-lg {
-    //         height: 3px;
-    //     }
-    // }
-
-    // &__bef::after{
-    //     content: "";
-    //     display: inline-block;
-    //     width: 10px;
-    //     height: 2px;
-    //     background-color: black;
-    //     margin: 8px 12px;
-
-    //     @include mixins.display-med {
-    //         margin:  9px 12px;
-    //     }
-       
-    //     @include mixins.display-lg {
-    //         height: 3px;
-    //     }
-    // }  
 }
 
 @keyframes dissolve {
