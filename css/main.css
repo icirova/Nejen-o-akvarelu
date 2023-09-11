@@ -331,6 +331,10 @@
   }
 }
 
+.link--inspiration {
+  text-decoration: none;
+}
+
 .hero__image--mobil {
   width: 100%;
   z-index: -1;
