@@ -163,7 +163,6 @@ const selectedImages = getRandomImages(randomImages, 9);
 const sectionInspiration = document.getElementById("inspiration");
 
 selectedImages.forEach (function (img) {
-    console.log(img);
     const divImageElement = document.createElement("div");
     divImageElement.classList.add("image");
     sectionInspiration.appendChild(divImageElement);
@@ -183,7 +182,6 @@ selectedImages.forEach (function (img) {
 
     const linkElement = document.createElement("a");
     linkElement.classList.add("link", "link--inspiration");
-    console.log(linkElement)
     linkElement.href = img.author_link;
     linkElement.textContent = img.author_name;
     paragraphAuthorElement.appendChild(linkElement);
