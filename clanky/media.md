@@ -13,9 +13,13 @@ tags: ['clanek', 'zaklady']
 
 Tyto intenzivně zbarvené roztoky nabízejí možnost okamžitého použití čisté barvy. Tekuté akvarelové barvy a tuše se dají mezi sebou volně míchat a ředit vodou. Pro jejich jasné barvy si je oblíbili ilustrátoři a vy si můžete vybrat mezi stálobarevnými pigmentovými tušemi a tušemi ze syntetických barviv, které vybledají. Podobně se dají požít i vodorozpustné tuše na kreslení, buď na lazury, anebo pro nanesení kaligrafických stop redisovými pery. Indická tuš je namíchána s se šelakovým pojivem a není vhodné ji použít do plnicích per. Dá se ale zředit a pak zanechá světlostálou, voděodolnou stopu. Akrylové tuše jsou také vhodné, ale na rozdíl od akvarelu schnou do voděodolného povrchu, který nelze z papíru odstranit.
 
+<img class="img-md" src="/clanky/images/pencil.webp" alt="příroda">
+
 ## Akvarelové tužky a pastely
 
 Na rozdíl od obyčejných tužek a pastelů, které zanechávají tvrdou linku, akvarelové pastely a tužky reagují s vodou a po překrytí čirou lazurou poskytnou měkčí efekt. Pokud neradi vidíte v hotovém obrazu čáry kreslené tužkou, zvažte možnost použít buď akvarelovou tužku, anebo vodorozpustnou grafitovou tužku, protože během malování lazurami prolnou. Akvarelové tužky se buď užívají nasucho a pak se překryjí lazurou čisté vody, anebo jimi kreslíte na vlhký papír a pak vytvoří rozptýlenou linku.
+
+<div class="clear-both"></div>
 
 ## Kvašová barva
 
