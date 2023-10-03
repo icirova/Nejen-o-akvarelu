@@ -153,6 +153,16 @@
   margin: 24px auto;
 }
 
+.img-md {
+  height: 200px;
+  float: right;
+  margin-left: 20px;
+}
+
+.clear-both {
+  clear: both;
+}
+
 @media screen and (min-width: 1024px) {
   .header-wrapper {
     display: flex;

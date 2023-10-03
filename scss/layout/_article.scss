@@ -46,3 +46,16 @@
 .link--article {
     margin: variables.$spacer auto;   
 }
+
+//stylování obrázků ve článcích vložených markdownemn
+.img-md {
+    height: 200px;
+    float: right;
+    margin-left: 20px;
+    // margin-top: 5px;
+    
+}
+
+.clear-both {
+    clear: both;
+}

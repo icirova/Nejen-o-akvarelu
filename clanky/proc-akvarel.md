@@ -11,10 +11,18 @@ tags: ['clanek', 'zaklady']
 
 Akvarel vytváří transparentní vrstvy; výsledkem je svěžest, jasnost a záře, jakých s žádným jiným médiem nedosáhnete. Akvarel také poskytuje umělci okamžitý efekt, stejně jako určitou dávku nepředvídavosti - pro akvarel je často nejlepší, když ho necháme, aby se vydal svou vlastní cestou, pak vytváří krásné a nečekaně jemné prolínání.
 
+
+
+<img class="img-md" src="/clanky/images/nature.webp" alt="příroda">
+
 ## Přitažlivost akvarelu
 
 Malovat akvarelovými barvami je neuvěřitelně snadné, protože jsou tím nejdostupnějším médiem, co se týče potřebného materiálu: pár barev, pár štětců, náčrtník, a můžete se do toho dát. Ve srovnání s olejovými nebo akrylovými barvami jsou akvarelové barvy levné, snadno se používají, jsou přenosné a malba schne v řádu minut. Obsahují tytéž pigmenty jako olejové barvy či pastely, což obrazu dává bohatou a spolehlivou barvu, ale s jedinečnou luminozitou.
 
+<div class="clear-both"></div>
+
 Někteří lidé chápou akvarel čistě jako médium ke skicování, ale tato myšlenka nemůže být dále od pravdy. Ve skutečnosti spousta těch nejlepších malířů minulosti užívala paletu akvarelu, aby vytvářela malby, které jsou zrovna tak struhující a trvalé jako obrazy malované ostatními médii.
+
+
 
 "Každá akvarelová barva je dobrodružstvím - vzrušující cestou do neznáma."
