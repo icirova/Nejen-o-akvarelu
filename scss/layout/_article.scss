@@ -48,11 +48,19 @@
 }
 
 //stylování obrázků ve článcích vložených markdownemn
-.img-md {
+.img-md--right {
     height: 200px;
     float: right;
     margin-left: 20px;
-    // margin-top: 5px;
+    margin-top: 5px;
+    
+}
+
+.img-md--left {
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
     
 }
 

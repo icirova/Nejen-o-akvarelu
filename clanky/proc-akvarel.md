@@ -13,7 +13,7 @@ Akvarel vytváří transparentní vrstvy; výsledkem je svěžest, jasnost a zá
 
 
 
-<img class="img-md" src="/clanky/images/nature.webp" alt="příroda">
+<img class="img-md--right" src="/clanky/images/nature.webp" alt="příroda">
 
 ## Přitažlivost akvarelu
 
