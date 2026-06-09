@@ -3,7 +3,7 @@ layout: layouts/article.njk
 title: Techniky akvarelu
 subtitle:
 perex: Jako médium jsou akvarelové barvy neuvěřitelně všestranné a povedou vás od jednoduchých lazur až ke smíšeným médiím a texturovaným povrchům, jež se hodí pro mnoho malířských stylů a námětů. Díky plynulému a transparentnímu charakteru se akvarel snadno nanáší expresivními tahy a vytváří malby, kde se barvy prolínají a souvisle splývají s třpytivou luminozitou.
-publication: 24. 7. 2023
+date: 2023-07-24
 image: techniky.webp
 alt: techniky akvarelu
 tags: ['clanek', 'techniky']

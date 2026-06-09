@@ -3,7 +3,7 @@ layout: layouts/article.njk
 title: Mokrým do mokrého
 subtitle: Efekty přirozeného prolínání
 perex: Aplikací barvy na mokrý papír nebo na mokrou lazuru se pigmenty akvarelových barev přirozeně propojí a vzájemně splynou tak, jak to u žádného jiného média nedosáhnete. Metodu mokrým do mokrého můžete užít k prolnutí lazur, namíchání třetí barvy anebo k dosažení slabších tónů téže barvy.
-publication: 26. 7. 2023
+date: 2023-07-26
 image: wet-to-wet.webp
 alt: krajina
 tags: ['clanek', 'techniky']

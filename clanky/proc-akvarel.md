@@ -3,7 +3,7 @@ layout: layouts/article.njk
 title: Proč akvarel
 subtitle: Objevte svět vodorozpustných barev
 perex: Akvarelové barvy už existují tisíce let, ale umělci si dodnes užívají experimentování s technikami a odhalují nové způsoby práce s tímto médiem. Postupně objevíte, jak něco tak jednoduchého, jako směs pigmentu a vody, dokáže dát tolik radosti a potěšení ve chvíli, kdy v ruce držíte štětec.
-publication: 25. 6. 2023
+date: 2023-06-25
 image: akvarel.webp
 alt: pozadí
 tags: ['clanek', 'zaklady']

@@ -1,0 +1,10 @@
+<article class="card">
+    <div class="card__content">
+        <img class="card__image" src="/clanky/images/{{ post.data.image }}" alt="{{ post.data.alt }}">
+        <h2 class="card__title">{{ post.data.title }}</h2>
+        <p class="card__description card__description--date">{{ post.date | formatDate }}</p>
+        <p class="card__description card__description--perex">{{ post.data.perex }}</p>
+    </div>
+
+    <a class="card__link btn btn--outline" href="{{ post.url }}">více...</a>
+</article>

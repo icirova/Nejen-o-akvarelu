@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="cs-cz">
+<html lang="cs">
     <head>
 
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{{ description or 'Blog Nejen o akvarelu s články, technikami a inspirací pro akvarelovou malbu.' }}">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="/css/main.css" type="text/css"/>
 
-        <title> {{title}} </title>
+        <title>{{ title or 'Nejen o akvarelu' }}</title>
        
     </head>
 
@@ -36,9 +34,6 @@
             
             {% include 'partials/footer.njk' %}
 
-       
-        <script src="/scripts/script.js" type="module"></script>  
-          
     </body>
     
 </html>

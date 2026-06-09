@@ -3,7 +3,7 @@ layout: layouts/article.njk
 title: Suchý štětec
 subtitle: Malování přerušovaných čar
 perex: Suchý štětec se vztahuje k technice, při níž se stopy dělají střídmě namočeným štětcem a při níž tak vznikají nerovné, přerušované okraje a texturované efekty. Změnami sklonu a směru štětce můžete představit i složitý námět, například listoví, texturu kamene či kůry stromu a lomené světlo. Pro optimální efekt pracujte na hrubém papíře.
-publication: 26. 7. 2023
+date: 2023-07-26
 image: dry-brush.webp
 alt: krajina
 tags: ['clanek', 'techniky']

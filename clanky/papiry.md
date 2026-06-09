@@ -3,7 +3,7 @@ layout: layouts/article.njk
 title: Papíry
 subtitle: volba povrchu
 perex: Téměř všechny malby akvarelem využívají jako primární podložku papír. Akvarelový papír je speciálně ošetřen tak, aby zvládl absorpci barvy, tudíž volba papíru bude mít více než cokoli jiného vliv na vzhled vaší finální malby. K dostání jsou ale i další,  méně obvyklé podložky vhodné k užití pro malbu akvarelem.
-publication: 28. 6. 2023
+date: 2023-06-28
 image: paper.webp
 alt: papíry
 tags: ['clanek', 'zaklady']

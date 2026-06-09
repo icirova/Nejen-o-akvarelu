@@ -3,7 +3,7 @@ layout: layouts/article.njk
 title: Mokrým do suchého
 subtitle: Kontrolované tahy štětcem a okraje
 perex: Když se mokrá barva nanáší na suchý papír či na suchou barvu, pigment se rozšíří méně, než na mokrém povrchu. Máte tak víc kontroly nad tahy štětcem, okraje jsou ostré, tvary, definice i detail přesné.
-publication: 25. 7. 2023
+date: 2023-07-25
 image: wet-to-dry.webp
 alt: šelmy
 tags: ['clanek', 'techniky']

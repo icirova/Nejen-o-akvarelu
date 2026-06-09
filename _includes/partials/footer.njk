@@ -4,7 +4,7 @@
     
         <div class="card card--contact">
         
-            <h1 class="card__title">Kontaktuj mě</h1>
+            <h2 class="card__title">Kontaktuj mě</h2>
             <p class="card__description">jmeno@ab.cd</p>
             <img class="card__image card__image--contact" src="/images/mailbox.webp" alt="profilové foto">  
 
@@ -13,23 +13,23 @@
         <div class="card">
         
             <div class="card__content">   
-                <h1 class="card__title">Ptej se</h1>
+                <h2 class="card__title">Ptej se</h2>
 
-                <form class="form" method="post" action="#">
+                <form class="form" method="post" action="mailto:jmeno@ab.cd" enctype="text/plain">
                     
                     <div class="form__field">
                         <label class="form__label" for="name">Jméno</label>
-                        <input class="form__input" type="text" name="name" id="name">
+                        <input class="form__input" type="text" name="name" id="name" autocomplete="name">
                     </div>
 
                     <div class="form__field">
                         <label class="form__label" for="email">E–mail <span class="form__required">*</span></label>
-                        <input class="form__input" type="email" name="email" id="email">
+                        <input class="form__input" type="email" name="email" id="email" autocomplete="email" required>
                     </div>
 
                     <div class="form__field">
                         <label class="form__label" for="message">Zpráva <span class="form__required">*</span></label>
-                        <textarea class="form__textarea" name="message" id="message" cols="30" rows="10"></textarea>
+                        <textarea class="form__textarea" name="message" id="message" cols="30" rows="10" required></textarea>
                     </div>
             
                     <input class="btn btn--form" type="submit" value="Odeslat" id="submit">
@@ -45,7 +45,7 @@
             <div class="card__content">
                 
                 <img class="card__image card__image--profil" src="/images/profil-akvarel.webp" alt="profilové foto">
-                <h1 class="card__title">Kdo jsem</h1>
+                <h2 class="card__title">Kdo jsem</h2>
                 <p class="card__description">Jmenuji se Iveta. Kreslím a maluji již od útlého věku. Začínala jsem tužkou a pastelkami, později vodovými barvami, pastely a tuší. Teď se věnuji výhradně akvarelu v kombinaci s perokresbou a digitální ilustraci.  </p>
     
             </div>

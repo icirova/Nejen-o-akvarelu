@@ -8,80 +8,9 @@ title: Inspirace
 
 
 <section id="inspiration" class="inspiration">
-
-    <!-- <div class="image">
-        <img class="image__img" src="/random-gallery/1.webp" alt="peří">
-        <div class="image__description">
-            <p class="image__author">🎨<a class="link link--inspiration" href="https://pixabay.com/cs/users/ractapopulous-24766/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2561511">JL G</a></p>
-            
-        </div>
-    </div>
-
-    <div class="image">
-        <img class="image__img" src="/random-gallery/2.webp" alt="oko">
-        <div class="image__description">
-            <p class="image__author">🎨<a class="link link--inspiration" href="https://pixabay.com/cs/users/ractapopulous-24766/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2561511">JL G</a></p>
-            
-        </div>
-    </div>
-
-    <div class="image">
-        <img class="image__img" src="/random-gallery/3.webp" alt="lev">
-        <div class="image__description">
-            <p class="image__author">🎨<a class="link link--inspiration" href="https://pixabay.com/cs/users/ractapopulous-24766/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2561511">JL G</a></p>
-           
-        </div>
-    </div>
-    
-    <div class="image">
-        <img class="image__img" src="/random-gallery/4.webp" alt="pozadí">
-        <div class="image__description">
-            <p class="image__author">🎨<a class="link link--inspiration" href="https://pixabay.com/cs/users/ractapopulous-24766/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2561511">JL G</a></p>
-            
-        </div>
-    </div>
-
-    <div class="image">
-        <img class="image__img" src="/random-gallery/5.webp" alt="pozadí">
-        <div class="image__description">
-            <p class="image__author">🎨<a class="link link--inspiration" href="https://pixabay.com/cs/users/ractapopulous-24766/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2561511">JL G</a></p>
-            
-        </div>
-    </div>
-
-    <div class="image">
-        <img class="image__img" src="/random-gallery/6.webp" alt="pozadí">
-        <div class="image__description">
-            <p class="image__author">🎨<a class="link link--inspiration" href="https://pixabay.com/cs/users/ractapopulous-24766/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2561511">JL G</a></p>
-            
-        </div>
-    </div>
-
-    <div class="image">
-        <img class="image__img" src="/random-gallery/7.webp" alt="kolo">
-        <div class="image__description">
-            <p class="image__author">🎨<a class="link link--inspiration" href="https://pixabay.com/cs/users/ractapopulous-24766/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2561511">JL G</a></p>
-            
-        </div>
-    </div>
-
-    <div class="image">
-        <img class="image__img" src="/random-gallery/8.webp" alt="přístav">
-        <div class="image__description">
-            <p class="image__author">🎨<a class="link link--inspiration" href="https://pixabay.com/cs/users/ractapopulous-24766/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2561511">JL G</a></p>
-            
-        </div>
-    </div>
-
-    <div class="image">
-        <img class="image__img" src="/random-gallery/9.webp" alt="dobroty">
-        <div class="image__description">
-            <p class="image__author">🎨<a class="link link--inspiration" href="https://pixabay.com/cs/users/ractapopulous-24766/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2561511">JL G</a></p>
-            
-        </div>
-    </div> -->
-    
-    
+    {% for image in randomGallery | sample(9) %}
+        {% include 'partials/gallery-image.njk' %}
+    {% endfor %}
 
 </section>
 
@@ -109,4 +38,3 @@ title: Inspirace
 
 </section>
 
-    

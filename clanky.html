@@ -4,54 +4,16 @@ title: Články
 ---
 
 <h1 class="section-title">Články</h1>
-<h2 class="section-subtitle">Základy</h2>
 
-<div class="articles-wrapper">
+{% for category in articleCategories %}
+    <h2 class="section-subtitle">{{ category.title }}</h2>
 
-    {% for prispevek in collections.zaklady | reverse %}
+    <div class="articles-wrapper">
 
-    <div class="card">
-
-        <div class="card__content">
-            
-            <img class="card__image" src="/clanky/images/{{ prispevek.data.image }}" alt="{{ prispevek.data.alt }}">
-            <h1 class="card__title">{{ prispevek.data.title }}</h1>
-            <p class="card__description card__description--date">{{ prispevek.data.publication }} </p>
-            <!-- <p>Publikováno {{ page.date.toLocaleString('cs-CZ') }} </p> -->
-            <p class="card__description card__description--perex">{{ prispevek.data.perex }}</p>
-          
-        </div>
-
-        <a class="card__link btn btn--outline" href="{{ prispevek.url }}">více…</a> 
+        {% for prispevek in collections[category.collection] | reverse %}
+            {% set post = prispevek %}
+            {% include 'partials/article-card.njk' %}
+        {% endfor %}
 
     </div>
-
-
-    {% endfor %}
-
-</div>
-
-<h2 class="section-subtitle">Techniky</h2>
-
-<div class="articles-wrapper">
-
-    {% for prispevek in collections.techniky | reverse %}
-
-    <div class="card">
-
-        <div class="card__content">
-            
-            <img class="card__image" src="/clanky/images/{{ prispevek.data.image }}" alt="{{ prispevek.data.alt }}">
-            <h1 class="card__title">{{ prispevek.data.title }}</h1>
-            <p class="card__description card__description--date">{{ prispevek.data.publication }} </p>
-            <!-- <p>Publikováno {{ page.date.toLocaleString('cs-CZ') }} </p> -->
-            <p class="card__description card__description--perex">{{ prispevek.data.perex }}</p>
-          
-        </div>
-
-        <a class="card__link btn btn--outline" href="{{ prispevek.url }}">více…</a> 
-
-    </div>
-
-
-    {% endfor %}
+{% endfor %}
