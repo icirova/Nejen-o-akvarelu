@@ -4,17 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "serve": "npx @11ty/eleventy --serve"
+    "css": "sass scss/main.scss css/main.css",
+    "css:watch": "sass --watch scss/main.scss css/main.css",
+    "build": "npm run css && eleventy",
+    "serve": "npm run css && eleventy --serve"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "22"
+    "node": ">=22 <24"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.5"
+    "@11ty/eleventy": "^3.1.5",
+    "sass": "^1.100.0"
   },
   "overrides": {
     "anymatch": {

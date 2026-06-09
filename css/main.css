@@ -600,7 +600,7 @@ h3 {
 }
 .btn:hover, .btn:active {
   cursor: pointer;
-  background-color: #a75042;
+  background-color: rgb(167.017699115, 80.4159292035, 65.982300885);
 }
 .btn--outline {
   border: 2px solid #bf6b5d;
@@ -658,4 +658,6 @@ h3 {
 }
 .form__required {
   color: red;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

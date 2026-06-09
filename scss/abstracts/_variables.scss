@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 //barvy
 $color-primary: #bf6b5d;
 $color-secondary:#f9e7e2;
@@ -22,8 +24,8 @@ $font-lg: 2em;  //32px
 $spacer: 24px;
 $double-spacer: $spacer * 2;
 $triple-spacer: $spacer * 3;
-$half-spacer: $spacer / 2;
-$mini-spacer: $spacer / 3;
+$half-spacer: math.div($spacer, 2);
+$mini-spacer: math.div($spacer, 3);
 
 //breakpointy pro Media Queries
 $screen-med: 680px;
