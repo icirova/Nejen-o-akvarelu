@@ -20,7 +20,11 @@
     "sass": "^1.100.0"
   },
   "overrides": {
-    "js-yaml": "4.2.0",
+    "brace-expansion": "^1.1.18",
+    "immutable": "^5.1.8",
+    "liquidjs": "^10.27.1",
+    "linkify-it": "^5.0.2",
+    "js-yaml": "^4.3.1",
     "anymatch": {
       "picomatch": "2.3.2"
     },
